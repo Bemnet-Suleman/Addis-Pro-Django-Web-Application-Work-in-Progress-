@@ -1,38 +1,34 @@
-# Addis-Pro-Django-Web-Application-Work-in-Progress-
-**Overview**:
+# Addis Pro – Early Django Practice Project (Archived Work-in-Progress)
+**Overview:** 
 
-This project is a Django-based web application originally initiated as a practice collaboration. Although the original client request was uncertain and the project was left incomplete, I continued developing it as a way to strengthen my skills in Python and Django. The repository demonstrates my ability to structure a Django project, implement core features, and apply modern web development practices.
+This repository contains one of my earliest experiments with Django, built several years ago when I was just beginning to explore web development. The project was never completed and the design is very rough, but I’ve kept it here as part of my learning journey. It shows my first attempts at structuring a Django application, experimenting with models, templates, and authentication, and gaining confidence with Python as a backend language.
 
-**Features Implemented:**
+**Features Attempted:**
 
-Django project setup with modular apps
+Basic Django project setup with apps
 
-User authentication (login, signup, logout)
+Simple user authentication (login, signup)
 
-Basic models for handling company data
+Initial models for storing data
 
-Template rendering with Bootstrap for responsive design
+Early template rendering with HTML/CSS
 
-Initial CRUD functionality for managing records
+**Limitations:**
 
-**Planned Features (Not Yet Completed, I doubt i will even complete them):**
+The design is unfinished and not polished
 
-Dashboard with analytics
+Functionality is incomplete
 
-Role-based access control
-
-API endpoints for integration
-
-Deployment setup (Heroku/Docker)
+Code reflects beginner-level understanding at the time
 
 **Tech Stack:**
 
 Backend: Python, Django
 
-Frontend: HTML, CSS, Bootstrap
+Frontend: HTML, CSS
 
 Database: SQLite (development)
 
 Version Control: Git/GitHub
 
-**Purpose:** This repository is part of my portfolio to showcase my growing expertise in Python development, Django framework, and web application design. Even though the project is unfinished, it reflects my ability to take initiative, learn independently, and build scalable foundations for future applications.
+**Purpose:** This project is archived as a record of my growth. While the website itself is not production-ready, it demonstrates my willingness to experiment, learn, and build with Django at an early stage. My current projects reflect much more advanced skills, but I keep this one to show where I started and how far I’ve come.
