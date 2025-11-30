@@ -1,0 +1,24 @@
+{%extends 'addis/base.html' %}
+{%load static%}
+{%block title%}
+Portifolo
+{%endblock%}
+{%block content%}
+<h1 style="color:lime; font-size:50px;">Portfolio</h1>
+    <div class="row">
+        {% for customer in customers %}
+        <div class="col-md-4">
+        <div class="card mb-2">
+        {% if customer.image %}
+        <img class="card-img-top" src="{{customer.image.url}}">
+        {% endif %}
+        <div class="card-body">
+                <h5 class="card-title">{{customer.name}}</h5>
+                <p class="card-text">{{customer.email}}</p>
+                <a href="{% url 'portifolo_detail' customer.id %}" class="btn btn-primary">Read More</a>
+            </div>
+            </div>
+            </div>
+        {% endfor %}
+    </div>
+{%endblock%} 

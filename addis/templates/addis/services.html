@@ -1,0 +1,26 @@
+{%extends 'addis/base.html' %}
+{%load static%}
+{%block title%}
+Index
+{%endblock%}
+{%block content%}
+    <h2>{{us.name}}    <img src="{%static 'Addis_logo.jpeg' %}" alt="Addis pro logo" height="50" width="100"></h2>
+    <div class="row">
+    <ul>
+        {% for pk in us %}
+        <div class="col-md-4">
+        <div class="card mb-2">
+        <div class="card-body">
+            <a href="{% url 'blog/' pk.id %}" class="btn btn-primary">Read More</a>
+            {% if pk.responsed == True %}
+                <li>{{pk.question}} - Answered</li>
+            {% else %}
+                <li>{{pk.question}} - Unanswered <strong>can you?</strong></li>
+            {% endif %}
+            </div>
+            </div>
+            </div>
+        {% endfor %}
+    </ul>
+    </div>
+{%endblock%} 

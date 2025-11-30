@@ -1,0 +1,19 @@
+h1 {
+color:lightblue;
+font:papyrus;
+font-family:papyrus;
+}
+.Footer {
+background-color:white;
+font-family:arial;
+color:black;
+background-image:url(/storage/emulated/0/Documents/Pydroid3/commerc/addis/static/Blue.jpeg);
+}
+btn {
+color:blue;
+font-family:papyrus;
+border-color:green;
+border-style:solid;
+button-layout:0;
+padding:5px;
+}
